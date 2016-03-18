@@ -260,7 +260,7 @@ public final class ProxyThread extends Thread {
                 response = doPost(request);
                 break;
             case "PUT":
-                response = doPost(request);
+                response = doPut(request);
                 break;
             case "CONNECT":
                 doConnect(request);
